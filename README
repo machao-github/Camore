@@ -1,0 +1,32 @@
+	This is an android project(android studio) aiming to generate a super-resolution image from multiple 
+low-resolution images.Renderscipt is used to realize parallel computation. The very heart of this project lies 
+in the computation core which consists of three principal components ,ie,image registeration,motion 
+estimate and image fusion. During the generation of the super-resolution image, low resolution images are 
+splitted into multiple blocks due to the variation of translation in the the source image. Then the splitted 
+blocks are iterated and the data in each block is processed separately.Currently the quality of generated 
+super-resolution image is not quite satisfying, the dilema is primarily about accelerating image 
+registration with high accuracy. 
+	Please contact me via chao-ma@outlook.com,any advisement or suggestions will be appreciated. Consider 
+reading the references below for more details about the mathematical stuff that backs core of this project.
+	1.A. Blake and A. Zisserman,Visual Reconstruction. The MIT Press,Cambridge, MA, 1987
+	2.P. J. Huber, Robust Statistics, Wiley, New York, 1981
+	3.P. Perona and J. Malik, Scale-space and edge detection using aniso-tropic diffusion, IEEE Trans. 
+Pattern Anal. Mach.Intell. 12(7), July1990, 629–639.
+	4.Mical Irani and Shmuel Peleg,Improving Resolution by Image Registration,CVGIP: Graphical Models 
+and Image Processing Volume 53, Issue 3, May 1991, Pages 231–239
+	5.Borman, Sean, and Robert L. Stevenson. "Super-resolution from image sequences-a review." In mwscas,
+ p. 374. IEEE, 1998
+	6.Black, Michael J., and Anand Rangarajan. "The outlier process: Unifying line processes and robust 
+statistics."Computer Vision and Pattern Recognition, 1994. Proceedings CVPR'94., 1994 IEEE Computer Society
+Conference on. IEEE, 1994.
+	7.Geman, Stuart, and Donald Geman. "Stochastic relaxation, Gibbs distributions, and the Bayesian 
+restoration of images." Pattern Analysis and Machine Intelligence, IEEE Transactions on 6 (1984): 721-741.
+	8.Geiger, Davi, and Federico Girosi. "Parallel and deterministic algorithms from MRFs: Surface 
+reconstruction." IEEE Transactions on Pattern Analysis & Machine Intelligence 5 (1991): 401-412.
+	9.Black, Michael J., and Paul Anandan. "The robust estimation of multiple motions: Parametric and 
+piecewise-smooth flow fields." Computer vision and image understanding 63.1 (1996): 75-104.
+	10.Keren, Danny, Shmuel Peleg, and Rafi Brada. "Image sequence enhancement using sub-pixel 
+displacements." Computer Vision and Pattern Recognition, 1988. Proceedings CVPR'88., Computer Society 
+Conference on. IEEE, 1988.
+
+

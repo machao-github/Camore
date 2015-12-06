@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Camore</string>
+    <string name="action_settings">Settings</string>
+
+    //layout names
+    <string name="file_select_button_ok_text">Ok</string>
+    <string name="file_select_button_cancel_text">Cancel</string>
+    <string name="compute_start_button_text">Start</string>
+
+    //main_activity_menu
+    <string name="data_source">Data Source</string>
+    <string name="data_src_cam">Camera</string>
+    <string name="data_src_file">Files</string>
+
+
+    //preferences
+    <string name="g_preference_group_name">app_configs</string>
+    <string name="g_preference_working_dir">g_working_dir_abs</string>
+
+
+</resources>

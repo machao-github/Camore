@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.machao.camore.app.application.activities.CompuStatusActivity">
+
+    <include
+        android:id="@+id/im_ori_item"
+        layout="@layout/im_compare_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        />
+
+    <include
+        android:id="@+id/im_cur_item"
+        layout="@layout/im_compare_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+
+        />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/progress_bars"
+            android:orientation="vertical"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+
+
+            <include
+                android:id="@+id/overall_progress"
+                layout="@layout/progress_with_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.375"
+                android:layout_gravity="center"
+
+
+                />
+
+            <include
+                android:id="@+id/cur_im_progress"
+                layout="@layout/progress_with_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.375"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"/>
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/compute_start_button"
+            android:text="@string/compute_start_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
